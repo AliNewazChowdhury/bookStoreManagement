@@ -1,0 +1,89 @@
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color:black;
+	font-size:2.5rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+h6{
+	color:blue;
+	font-size:1.125rem;
+	font-weight:500;
+	text-align:center;
+}
+p{
+	color: #9a9393;
+    line-height: 1.8;
+    font-weight: .95rem;
+    text-align: center;
+}
+section{
+	padding-top:75px;
+    padding-bottom:25px;
+ 	
+}
+
+
+i{
+	font-size:2rem;
+	color:yellow;
+}
+.content{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+.btn{
+	padding: 10px 25px;
+    background-color: #1ea7d8;
+    border: 0px;
+    border-radius: 25px;
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: white;
+}
+/* -- Header Part -- */
+header{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+    background-color: #14151575;
+    overflow: hidden;
+	z-index:99;
+}
+
+
+/* -- Project Part -- */
+#project img{
+	height:250px;
+	width:100%;
+}
+#project .content{
+	position:relative;
+}
+#project .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color:black;
+	left:10px;
+	right:10px;
+	padding:15px;
+	color:white;
+	text-transform:uppercase;
+	display:none;
+} 
+#project .content:hover .overlay{
+	display:block;
+}
+	
+
+
+
